@@ -15,13 +15,17 @@ function longest($a, $b) {
     }
     else
     {
-        $splitstring1 = str_split($a);
-        $splitstring2 = str_split($b);
-        sort($splitstring1);
-        sort($splitstring2);
-        $splitstring1 = implode($splitstring1);
-        $splitstring2 = implode($splitstring2);
-        echo $splitstring1, $splitstring2;
+        $string = $a . $b;
+
+
+
+//        $splitstring1 = str_split($a);
+//        $splitstring2 = str_split($b);
+//        sort($splitstring1);
+//        sort($splitstring2);
+//        $splitstring1 = implode($splitstring1);
+//        $splitstring2 = implode($splitstring2);
+//        echo $splitstring1, $splitstring2;
     }
 }
 
