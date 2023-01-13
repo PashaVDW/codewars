@@ -1,6 +1,6 @@
 <?php
 function isIsogram($string) {
-    if (empty($string) || $string === NULL) {
+    if (empty($string)) {
         return true;
     }
 
